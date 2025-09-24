@@ -1,0 +1,11 @@
+[package]
+name = "vds"
+version = "0.4.0"
+edition = "2024"
+
+[[bin]]
+name = "vds"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
